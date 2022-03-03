@@ -1,0 +1,56 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[Quit]
+Class="Function"
+Prototype="int Quit(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SerialFunc]
+Class="Function"
+Prototype="void SerialFunc(int portNumber, int eventMask, void *callbackData);"
+
+[connectToArdu]
+Class="Function"
+Prototype="int connectToArdu(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[checkVal]
+Class="Function"
+Prototype="void checkVal(char *data);"
+
+[SetState]
+Class="Function"
+Prototype="int SetState(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[clearGraph]
+Class="Function"
+Prototype="int clearGraph(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[clearGraph_Sorter]
+Class="Function"
+Prototype="int clearGraph_Sorter(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[exportGraph]
+Class="Function"
+Prototype="int exportGraph(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[StopFunc]
+Class="Function"
+Prototype="int StopFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DisconnectToArdu]
+Class="Function"
+Prototype="int DisconnectToArdu(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[testSorter]
+Class="Function"
+Prototype="int testSorter(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[sorterDirection]
+Class="Function"
+Prototype="int sorterDirection(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[stringFunc]
+Class="Function"
+Prototype="int stringFunc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

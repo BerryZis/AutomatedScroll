@@ -8,3 +8,7 @@ This project includes both GUI and the Arduino code controlling the motors of th
 - Stop/Idle
 - Deploy
 - Scroll
+
+## Logic Diagram
+
+![Screenshot](Logic Diagram_2.PNG)

@@ -11,4 +11,4 @@ This project includes both GUI and the Arduino code controlling the motors of th
 
 ## Logic Diagram
 
-![Screenshot](Logic Diagram_2.PNG)
+![Screenshot](Logic%20Diagram_2.PNG)
